@@ -1,18 +1,15 @@
-
 {
   "name": "macoron-bot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://yourusername.github.io/your-repository-name",  // <-- Замените на свой URL
+  "homepage": "https://alexglav28.github.io/macoron-bot",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "deploy": "gh-pages -d web.app",
+    "start": "echo \"Use npm run build to build your project\" && exit 0",
+    "build": "echo \"Your project is ready for GitHub Pages deployment\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "dotenv": "^16.5.0",
@@ -25,4 +22,3 @@
   "author": "",
   "license": "ISC"
 }
-
